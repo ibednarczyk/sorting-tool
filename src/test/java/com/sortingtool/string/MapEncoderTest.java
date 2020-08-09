@@ -7,7 +7,7 @@ import java.util.Map;
 class MapEncoderTest {
 
     @Test
-    public void shouldReturnAnEmptyMap() throws IllegalAccessException {
+    public void shouldReturnAnEmptyMap() {
 
         //given
         MapEncoder mapEncoder = new MapEncoder();
@@ -20,7 +20,7 @@ class MapEncoderTest {
     }
 
     @Test
-    public void shouldReturnKeysAndValues() throws IllegalAccessException {
+    public void shouldReturnKeysAndValues() {
 
         //given
         MapEncoder mapEncoder = new MapEncoder();
